@@ -1,4 +1,3 @@
-unsortedArray = [6,7,0,3, 4, 2, 1]
 function bubbleSort(unsortedArray){
   var loopTimes = unsortedArray.length;
   for (var i = 0; i < loopTimes; i++){
@@ -10,9 +9,8 @@ function bubbleSort(unsortedArray){
       };
     };
   };
+  return unsortedArray;
 };
 
 
 module.exports = bubbleSort
-bubbleSort(unsortedArray)
-console.log(unsortedArray)
